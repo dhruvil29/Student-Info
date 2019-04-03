@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         self.performSegue(withIdentifier: "mainView", sender: self)
+        // this is a test...
     }
 
 }
